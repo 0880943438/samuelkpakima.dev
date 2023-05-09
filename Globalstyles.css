@@ -1,0 +1,103 @@
+body {
+    background-color: var(--white-1);
+    overflow-x: hidden;
+}
+
+.container {
+    padding: 0% 10%;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6rem;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.sk__logo {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+
+.mail__box {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    position: relative;
+    top: 8px;
+}
+
+.nav__wrapper {
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+    top:0;
+    left:0;
+    right:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.nav__list li{
+    display: inline-block;
+    margin: 1.5rem;
+}
+
+.nav__list li .link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--black-1);
+    transition: 0.15s ease-in;
+}
+
+.nav__list li .link:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.nav__list li .link:active {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.form__btn {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(2, 2, 82);
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.15s;
+}
+
+.form__btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+.form__btn:active {
+    opacity: 0.4;
+}

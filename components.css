@@ -1,0 +1,155 @@
+.intro__section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.short__intro{
+    max-width: 500px;
+    width: 400px;
+    line-height: 1.6rem;
+    margin-right: 50px;
+    
+}
+.short__intro P{
+    font-weight: 400;
+} 
+
+.samuel__photo{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    object-fit: cover;
+    object-position: bottom;
+}
+/* google section*/
+
+.google__apps {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.google__section__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info__google {
+    width: 400px;
+    margin-left: 50px;
+}
+
+/*ms apps section styles*/
+.ms__apps__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    height: 500px;
+
+}
+
+.ms_apps {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    margin-right: 50px;
+}
+
+.ms__info {
+    width: 400px;
+}
+/*sign up form styles*/
+
+.form__wrapper {
+    width: 300px;
+    text-align: center;
+}
+
+.name__wrapper,
+.email__wrapper,
+.number__wrapper{
+    margin-bottom: 20px;
+}
+
+.name__box,
+.email__box,
+.number__box {
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    background-color: #efefef;
+}
+
+fieldset {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+legend {
+    font-weight: 500;
+}
+/*footer styles*/
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+}
+
+.footer__bg {
+background-color: gray;
+}
+
+.col1,
+.col2,
+.col3 {
+    width: 200px;   
+    overflow: hidden;
+}
+.col1 {
+    line-height: 1.6rem;
+}
+.facebook__link {
+    width: 40px;
+    height: 40px;
+}
+
+.twitter__link,
+.youtube__link {
+    width: 40px;
+    height: 40px;
+}
+
+.facebook__link__wrapper,
+.youtube__link__wrapper,
+.twitter__link__wrapper {
+    display: inline-block;
+}
+
+.Jump__to__top {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: black;
+
+}
+
+.phone__call {
+    width: 30px;
+    height: 30px;
+}
+
+.link-footer {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form/signup/Samuel J. Kpakima</title>
+    <link rel="stylesheet" type="text/css" href="components.css">
+    <link rel="stylesheet" type="text/css" href="Globalstyles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <div class="form__wrapper" data-aos="fade-right">
+                <form action="https://www.example.php.org" method="post" >
+                    <fieldset>
+                        <legend>Sign UP</legend>
+                        <div class="name__wrapper">
+                            <input class="name__box" type="text"
+                            name="username"
+                            placeholder="name"
+                             size="30"
+                              maxlength="40"
+                              required>
+                            </div>
+                            <div class="email__wrapper">
+                                <input class="email__box" type="mail"
+                                name="usermail"
+                                 placeholder="email"
+                                  size="30" required>
+                            </div>
+                            <div class="number__wrapper">
+                                <input class="number__box" type="tel"
+                                name="usernumber"
+                                placeholder="number"
+                                size="30"
+                                maxlength="30"
+                                required>
+                            </div>
+                            <div class="submit__wrapper">
+                                <input class="form__btn" type="submit" name="subscribe" value="Sign Up">
+                            </div>
+        
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                offset: 200,
+        delay: 100,
+        duration: 400,
+        easing: 'ease',
+        once: false,
+        mirror: false,
+        anchorPlacement: 'top-bottom'
+            }
+        )
+    </script>
+</body>
+</html>
